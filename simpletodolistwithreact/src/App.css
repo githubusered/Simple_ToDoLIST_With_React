@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.toDoList-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.toDoList {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.toDoList-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.toDoList-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.toDoList-addButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toDoList-addButton:hover {
+  background-color: #0056b3;
+}
+
+.toDoList-todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.toDoList-todo p {
+  flex: 1;
+  margin: 0;
+}
+
+.icon {
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.completed {
+  color: #28a745; /* Green color for completed tasks */
+}
+
+.delete {
+  color: #dc3545; /* Red color for delete action */
+}
